@@ -5,4 +5,6 @@ package my;
  */
 public interface CustomerDao {
     void save();
+    void delete(String id);
+    void delete();
 }

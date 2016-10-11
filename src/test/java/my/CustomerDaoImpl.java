@@ -8,4 +8,14 @@ public class CustomerDaoImpl implements CustomerDao{
     public void save() {
 
     }
+
+    @Override
+    public void delete(String id) {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
 }
