@@ -5,7 +5,12 @@ package my;
  */
 public class CustomerDaoImpl implements CustomerDao{
     @Override
-    public void save() {
+    public void delete(String id) {
+
+    }
+
+    @Override
+    public void delete() {
 
     }
 }
